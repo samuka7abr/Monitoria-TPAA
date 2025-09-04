@@ -78,21 +78,23 @@ O repositório inclui um **sistema completo de automação** para gerenciar list
   <tr>
     <td align="center">
       <a href="https://github.com/Falizz">
-        <img src="https://github.com/Falizz.png" width="100px;" alt="Falizz" style="border-radius: 50%;"/>
+        <img src="https://github.com/Falizz.png" width="100px;" alt="Falizz" style="border-radius: 50%;
+        border: solid 2px white"/>
         <br />
-        <sub><b>Falizz</b></sub>
+        <sub><b style="font-size: 16px;">Fábio Luís</b></sub>
       </a>
       <br />
-      <a href="https://github.com/Falizz" title="GitHub">GitHub</a>
+      <a href="https://github.com/Falizz" style="font-size: 12px;" title="GitHub">GitHub</a>
     </td>
     <td align="center">
       <a href="https://github.com/samuka7abr">
-        <img src="https://github.com/samuka7abr.png" width="100px;" alt="Samuel Abrão" style="border-radius: 50%;"/>
+        <img src="https://github.com/samuka7abr.png" width="100px;" alt="Samuel Abrão" style="border-radius: 50%;
+        border: solid 2px white"/>
         <br />
-        <sub><b>Samuel Abrão</b></sub>
+        <sub><b style="font-size: 16px;">Samuel Abrão</b></sub>
       </a>
       <br />
-      <a href="https://github.com/samuka7abr" title="GitHub">GitHub</a>
+      <a href="https://github.com/samuka7abr" style="font-size: 12px;" title="GitHub">GitHub</a>
       <br />
     </td>
   </tr>
