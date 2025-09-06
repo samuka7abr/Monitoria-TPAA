@@ -23,6 +23,10 @@ Todos os slides estão organizados nas pastas:
 - [`slides/A1/`](slides/A1/) - Conteúdos do primeiro período
 - [`slides/A2/`](slides/A2/) - Conteúdos do segundo período
 
+## ⌛ Questões antigas:
+Todas os enunciados das questões do semestre 2025.1 estão na pasta:
+[`Questoes_antigas`](Questoes_antigas) 
+
 ## 🛠️ Scripts de Automação
 
 O repositório inclui um **sistema completo de automação** para gerenciar listas de exercícios:
