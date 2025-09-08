@@ -11,7 +11,19 @@ const ll INF_LL = 1e18;
 const int MOD = 1000000007;
 
 int main(){
-    otim;
+    long long n;
+    cin >> n;
+    cout << n;
+    while(n != 1){
+        if(n % 2 == 0){
+            n /=2;
+        }
+        else{
+            n = 3 * n + 1;
+        }
+        cout << " " << n ;
+    }
+
     
     return 0;
 }
