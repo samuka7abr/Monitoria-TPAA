@@ -10,8 +10,22 @@ const int INF_INT = 1e9;
 const ll INF_LL = 1e18; 
 const int MOD = 1000000007;
 
+int M(int N){
+    if(N > 100){
+        return N - 10;
+    }else{
+        return M(M(N + 11));
+    }
+}
+
 int main(){
-    otim;
-    
+    int C;
+    cin >> C;
+
+    for(int i =0 ; i < C; i++){
+        int N;
+        cin >> N;
+        cout << M(N) << endl;
+    }
     return 0;
 }
