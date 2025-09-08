@@ -10,8 +10,30 @@ const int INF_INT = 1e9;
 const ll INF_LL = 1e18; 
 const int MOD = 1000000007;
 
+bool ehPrimo(int p) {
+    if (p < 2) return false;
+
+    for (int i = 2; i <= sqrt(p); i++) {
+        if (p % i == 0)
+            return false;
+    }
+    return true;
+}
+
 int main(){
-    otim;
-    
+    otim
+    int n;
+    cin >> n;
+
+    int i = 0, p;
+    while(i < n){
+        cin >> p;
+        if(ehPrimo(p)){
+            cout << "o numero " << p << " eh primo" << endl;  
+        }else{
+            cout << "o numero " << p << " nao eh primo" << endl;
+        }
+        i++;
+    }
     return 0;
 }
