@@ -1,22 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define otim ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-#define pb push_back
-using ll = long long;
-using ull = unsigned long long;
-using pii = pair<int, int>;
-using pll = pair<ll, ll>;
-const int INF_INT = 1e9;
-const ll INF_LL = 1e18; 
-const int MOD = 1000000007;
+
+/*
+	ideia de resolução:
+	- a soma dos números de 1 a N é dada por:
+		N * (N + 1) / 2
+	- se somarmos os números que foram dados em input, e subtrairmos esse valor da soma total, teremos o número que está faltando
+*/
 
 int main(){
-    otim;
 	int N;
 	cin >> N;
 
 	int somaTotal = N * (N + 1) / 2; //progressão aritmética (pega a soma total de [1..N])
-	int somaFaltante;
+	int somaFaltante = 0;
 	
 	for(int i = 0; i < N - 1; i++){ // N - 1 pq tá faltando um número
 		int numero; //declara o número em loop para que seu valor seja zerado a cada iteração
