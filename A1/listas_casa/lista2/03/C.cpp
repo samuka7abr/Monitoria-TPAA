@@ -2,6 +2,13 @@
 using namespace std;
 #define otim ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 
+/* Ideia de resolução:
+ * dado um array ordenado e um valor S, verificar se existem dois números que somam S
+ * utilizamos a técnica de dois ponteiros: um no início (left) e outro no final (right)
+ * se a soma for menor que S, movemos o ponteiro da esquerda para a direita
+ * se a soma for maior que S, movemos o ponteiro da direita para a esquerda
+ * se encontrarmos a soma exata, retornamos SIM, caso contrário NAO*/
+
 int main(){
     otim;
     int T; 
