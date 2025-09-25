@@ -20,45 +20,37 @@ using ull = unsigned long long;
             - Reatribuir os valores trocados nas respectivas posições.
 */
 
-int main (void){
+int main (void)
+{
 
     int t;
-    cin >> t; // número de casos de teste
+    cin >> t;
 
-    for (int i = 0; i < t; i++){
-        ull n;      // número no qual a troca será realizada
+    for (int i = 0; i < t; i++) {
+        ull n;
         cin >> n;
 
-        ull p, q;   // índices dos bits que serão trocados
+        ull p, q;
         cin >> p >> q;
 
         ull bitTemp; // variável auxiliar para manipulação dos bits
 
-        // captura o valor do bit na posição p
         ull bitp = (n >> p) & 1;
-
-        // captura o valor do bit na posição q
         ull bitq = (n >> q) & 1;
-
-        // zera o bit na posição p
         bitTemp = 1ULL << p;
         bitTemp = ~bitTemp;
         n = n & bitTemp;
 
-        // zera o bit na posição q
         bitTemp = 1ULL << q;
         bitTemp = ~bitTemp;
         n = n & bitTemp;
 
-        // coloca o valor original de q na posição p
         bitTemp = bitq << p;
         n = n | bitTemp;
 
-        // coloca o valor original de p na posição q
         bitTemp = bitp << q;
         n = n | bitTemp;
 
-        // imprime o número após a troca de bits
         cout << n << endl;
     }
 

@@ -9,13 +9,11 @@ using namespace std;
         - Isso garante que apenas o bit escolhido seja zerado, mantendo os demais inalterados.
 */
 
-int main (void)
-{
+int main (void) {
     int n, b; // n = quantidade de números, b = índice do bit a ser desativado
     cin >> n >> b;
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         int v; // número a ser analisado
         cin >> v;
 
