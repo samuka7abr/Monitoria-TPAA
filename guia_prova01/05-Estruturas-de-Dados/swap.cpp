@@ -1,0 +1,1 @@
+swap(v[5], v[3]); // troca os valores de v[5] e v[3]
