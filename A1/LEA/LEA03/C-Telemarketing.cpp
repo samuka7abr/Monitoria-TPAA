@@ -27,6 +27,7 @@ int main(){
 
         ll limite = T[i] - K;
 
+        // Remove tempos que estão fora da janela de tamanho K
         while(!dq.empty() && dq.front() < limite){
             dq.pop_front();
         }
@@ -35,7 +36,6 @@ int main(){
             cout << ' ';
         }
 
-        // Imprime o número de chamadas dentro da janela
         cout << dq.size();
     }
 
