@@ -1,4 +1,4 @@
 exec
 /.vscode/
 prog.cpp
-input.txt
+*.txt
