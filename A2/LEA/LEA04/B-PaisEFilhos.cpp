@@ -3,11 +3,10 @@ using namespace std;
 
 /*
     Ideia de resolução:
-        Dentro de um vetor conseguimos achar os filhos de uma árvore binária
-    multiplicando o valor do índice por 2
-        Para encontrar o nó pai fazemos o inverso e dividimos o índice por 2
-        Por fim verificamos as condições presentes no exercício para printar
-    corretamente
+        - Filho esquerdo de um nó i: 2*i; filho direito: 2*i + 1.
+        - Pai de um nó i: i / 2.
+        - Para cada consulta, imprimir: pai (ou "RAIZ"), seguido dos filhos (ou "NULL").
+        - Verificar limites do vetor e o valor -1 para evitar acessos inválidos.
 */
 
 int main (void) {

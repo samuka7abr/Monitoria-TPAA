@@ -3,8 +3,9 @@ using namespace std;
 
 /*
     Ideia de resolução:
-        Traduzir o código de selection-sort disponibilizado no enunciado para C++
-        Ponto principal da questão é entender a lógica do selection-sort
+        - Implementar o selection-sort conforme o enunciado.
+        - Em cada iteração, encontrar o menor elemento na sublista à direita e trocar com a posição atual.
+        - Contar o número de trocas realizadas e imprimir o vetor resultante seguido do contador.
 */
 
 int main (void) {
