@@ -1,0 +1,1 @@
+reverse(v.begin(), v.end()); // Inverte a ordem dos elementos de v
