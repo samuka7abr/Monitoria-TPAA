@@ -16,7 +16,8 @@ int main(void) {
     int numeroCrime;
 
     while (cin >> nome && nome != "fim" && cin >> numeroCrime && numeroCrime != 0) {
-        int contador = detidos[nome]++;
+        int contador = detidos[nome];
+        detidos[nome]++;
         if (contador == 0) {
             cout << nome << " eh reu primario" << endl;
         } else {
